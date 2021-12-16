@@ -1,0 +1,916 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Action" Collapsed="true">
+    <Position X="6.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Actions\Action.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ActionEvent" Collapsed="true">
+    <Position X="10.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAACAACAAAIAAAAAIAAAABAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Actions\ActionEvent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AttackAction" Collapsed="true">
+    <Position X="5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAggIAAAQAAAAAAAAAQAAAAAAAAgAAAEA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Actions\AttackAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AttackActionEvent" Collapsed="true">
+    <Position X="9" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAQAAAAgAAAIAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Actions\AttackActionEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HealAction" Collapsed="true">
+    <Position X="7.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAQAAEA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Actions\HealAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HealActionEvent" Collapsed="true">
+    <Position X="11.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABEAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Actions\HealActionEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatureAnimator" Collapsed="true">
+    <Position X="2" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Animator\CreatureAnimator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DefaultAnimator" Collapsed="true">
+    <Position X="2" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAEAAAAAAAAAAAAIAIAAAAAAAAAAAAAAAAAAABAAEA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Animator\DefaultAnimator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MovableCreatureAnimator" Collapsed="true">
+    <Position X="2" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAgggAAAAAAAAAAACAAAAQAAAAAgAAAAAGA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Animator\MovableCreatureAnimator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BossAnimator" Collapsed="true">
+    <Position X="13" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMIIAAAQCAAAAAAAAAEgAEAAEAAAACAAAACAAAEAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Boss\BossAnimator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BossPhase" Collapsed="true">
+    <Position X="20.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQCAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAQA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Boss\BossPhase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuildingBoss" Collapsed="true">
+    <Position X="13" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYABAAAgiAAAAAAAAAEAAEAwAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Boss\BuildingBoss.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CrashDown" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAgAAICAg0AAAAAAAAAAAAAAABAEAAAAAAAAAAgA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Boss\Test_Boss\CrashDown.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SpawnRock" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgAAAKAAEEAAAABAAABAAAAAAAEAAAAAAEAEBgA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Boss\Test_Boss\SpawnRock.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TreeBoss" Collapsed="true">
+    <Position X="13" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAgAAAAAAAAAAAAAAgAAAABAAAAABAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Boss\Test_Boss\TreeBoss.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TreeBossAnimator" Collapsed="true">
+    <Position X="13" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Boss\Test_Boss\TreeBossAnimator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeakPoint" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAACAAAACAAAAAgAAAAAACAACAAAAAAAAAQAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Boss\WeakPoint.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Arrow" Collapsed="true">
+    <Position X="13" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Combat\Arrow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bow" Collapsed="true">
+    <Position X="10.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Combat\Bow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MeleeWeapon" Collapsed="true">
+    <Position X="8" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Combat\MeleeWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projectile" Collapsed="true">
+    <Position X="13" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAIAAAAAAAAAAAAEEIAIAAEAQAAAAAkAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Combat\Projectile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RangeWeapon" Collapsed="true">
+    <Position X="10.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAABAAAAAAAAAAAIAECAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Combat\RangeWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sword" Collapsed="true">
+    <Position X="8" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Combat\Sword.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Weapon" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAIAAAggAAAAAIAIAAAAIAAAAAQAAAAAAAQAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Combat\Weapon.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Creature" Collapsed="true">
+    <Position X="5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAAAAACAAEAAIACAAAAAAAAAAAAAAAAAIABAAAEAAEQ=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Creature.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HitboxArea" Collapsed="true">
+    <Position X="24.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQCAAABAAAAAAAAAAAAIAEAAAAAAgAAAAQAABMA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\HitboxArea.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Character" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MgQSAAKAASKiIHCARQRIWDEAJiACCSCJRCxAJAEIasg=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\LegacyPlayer\Character.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CharacterAnimator" Collapsed="true">
+    <Position X="27.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAIACAACCAAAAAAAAAAAAAQAAQAgAACQACAJAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\LegacyPlayer\CharacterAnimator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CharacterSound" Collapsed="true">
+    <Position X="15.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIIAAACAAAAICAAAAACEAAEgAAAAAAAQAAAAAAAI=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\LegacyPlayer\CharacterSound.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Foot" Collapsed="true">
+    <Position X="19" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAACAAAAAAAQAAAAAAAEiAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\LegacyPlayer\Foot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputManager" Collapsed="true">
+    <Position X="17.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAoCAAiAgAAACAAAAgAGAAAAAAAwAAAAAACAgAAg=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\LegacyPlayer\InputManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Monster" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADCAIEASEgCASBBAgiAAGAKBFSAACIROACAYAIQQg=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Monster\Monster.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MonsterAI" Collapsed="true">
+    <Position X="22.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCQAAMAAAqACJAAABAgAMAAQBAAAAAAAASAABAAggAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Monster\MonsterAI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonsterAnimator" Collapsed="true">
+    <Position X="24.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAACAAAAAAAAAAAAAAQAAQAgCAAQACAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Monster\MonsterAnimator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonsterSample" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAQAACAAAICAAAAAAAAAQAACAACAAAAIAAAAQAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Monster\MonsterSample.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MonsterSensor" Collapsed="true">
+    <Position X="27.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAIAAAKAAABEAAgAAAAABAiCAAAEBIKAAAAAAEAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Monster\MonsterSensor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovableCreature" Collapsed="true">
+    <Position X="5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACUYACgAEoEBIAAABEYgMAAAAAKAEhgAgESEEAAIAEA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\MovableCreature.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Campfire" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAgIAACAAAACAAAAAACEAIADCAACAIABAAAAAQxA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\NPCs\Campfire\Campfire.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CampfireEffect" Collapsed="true">
+    <Position X="24.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIABhAAAKAAIgIEAAACAAAAAgABCAAkhAAAAAMABEA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\NPCs\Campfire\CampfireEffect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Companion" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAQBJgGAAGABBASQAAgAJQCAoLA6IQKAQAkCAMhAQAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\NPCs\Companions\Companion.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CompanionAnimator" Collapsed="true">
+    <Position X="20.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgAAAAgAAAAAAAAAAAAEAAAAAAABAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\NPCs\Companions\CompanionAnimator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompanionCraftingWindowUI" Collapsed="true">
+    <Position X="22.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIACAAAAAAAAAEAAAQAAAAAAEAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\NPCs\Companions\CompanionCraftingWindowUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompanionProgressWindowUI" Collapsed="true">
+    <Position X="24.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAEAAAQAAAAAAEAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\NPCs\Companions\CompanionProgressWindowUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backpack" Collapsed="true">
+    <Position X="19" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAIAAQAAAAAQAAABAAAAAACAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Player\Backpack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kQQBAAAABAEAAAAAAAACIAAAABCkAAAIBAQBAAAAAEA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Player\Player.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PlayerAnimator" Collapsed="true">
+    <Position X="2" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAACAAAAAAAAIAACAAACQAAAAIAAACAAgEAAAAyCBEA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Player\PlayerAnimator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAABAAIAAAAAAAAAAAAAAAAAABAAAABEA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Player\PlayerController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Artifact" Collapsed="true">
+    <Position X="2" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Items\Artifacts\Artifact.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsumeItem" Collapsed="true">
+    <Position X="4.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Items\ConsumeItems\ConsumeItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DropItem" Collapsed="true">
+    <Position X="17.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAQAAAAAIkAAAAQAAAAAAAAAAAAAAAAAQAAIgEA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Items\DropItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Item" Collapsed="true">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAACAAABACAAAAAAAEgAAACAAAAABAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Items\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddMaxHavingPotionEffect" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAQAAAAAIAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Items\ItemEffects\AddMaxHavingPotionEffect.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AttackRangeEffect" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAQAAAAAIAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Items\ItemEffects\AttackRangeEffect.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CraftingEffect" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAQAAAAAIAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Items\ItemEffects\CraftingEffect.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HealingHPEffect" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAQAAAAAIAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Items\ItemEffects\HealingHPEffect.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ImmortalityInRollEffect" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAQAAAAAIAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Items\ItemEffects\ImmortalityInRollEffect.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="IncreaseHealingPotionAmountEffect" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAQAAAAAIAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Items\ItemEffects\IncreaseHealingPotionAmountEffect.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NoneEffect" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAQAAAAAIAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Items\ItemEffects\NoneEffect.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Climate" Collapsed="true">
+    <Position X="17.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAABIiACJBAAIUBZQAQBAAAQAiEAABEiDAIAAQAYM=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Modules\Climate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DayNight" Collapsed="true">
+    <Position X="15.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQQYFEBoAGAgAigBwQYioAIBAhAkEQSAAACAAwAAIIE=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Modules\DayNight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameModule" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgA1QAYEAAhABgSQHQwJiRIIgAoABYYCAAhjRggE=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Modules\GameModule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="IngameUIModule" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQQFAAghIIAFAAFCAggIQBgACAABAAAAAAAAAAQAsA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Modules\IngameUIModule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ItemModule" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAKgAAAABAAIAAABAgCAQAAABAAAACAAwAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Modules\ItemModule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WeatherModule" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAEAAAAIAAAAABAAAACAhAAAAAAAAAABBAAAAQAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Modules\WeatherModule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Wave" Collapsed="true">
+    <Position X="17.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIEAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Objects\MonsterSpawner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Night" Collapsed="true">
+    <Position X="19" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Objects\MonsterSpawner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonsterSpawner" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQBACAAACABAAAAAAgABAAAgAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Objects\MonsterSpawner.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TrackCamera" Collapsed="true">
+    <Position X="15.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAAAAAKAAAAAAIAQCAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\TrackCamera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonsterTrackingUI" Collapsed="true">
+    <Position X="17.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\UIs\MonsterTrackingUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PauseWindowUI" Collapsed="true">
+    <Position X="22.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\UIs\PauseWindowUI\PauseWindowUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PauseWindowUIMainPanel" Collapsed="true">
+    <Position X="24.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAAAAAAACAAAAAAAAAAEAAAAAAAAQBAAEAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\UIs\PauseWindowUI\PauseWindowUIMainPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PauseWindowUIMainPanelArtifactSlot" Collapsed="true">
+    <Position X="26" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABACAAAAAAAAAAAAAIAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\UIs\PauseWindowUI\PauseWindowUIMainPanelArtifactSlot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PauseWindowUIOptionPanel" Collapsed="true">
+    <Position X="27.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\UIs\PauseWindowUI\PauseWindowUIOptionPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerInfoUI" Collapsed="true">
+    <Position X="17.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\UIs\PlayerInfoUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlaytimeUI" Collapsed="true">
+    <Position X="19" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAEAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\UIs\PlaytimeUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PopupTextWindowUI" Collapsed="true">
+    <Position X="20.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACCKAAAAAAABAAEgABAAAAAAAEAQAAAAAAAAABAEQ=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\UIs\PopupTextWindowUI\PopupTextWindowUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RemainEnemyUI" Collapsed="true">
+    <Position X="22.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAQAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAQAAgAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\UIs\RemainEnemyUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SlotUI" Collapsed="true">
+    <Position X="24.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAIQAAAAAAEAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\UIs\SlotUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimerUI" Collapsed="true">
+    <Position X="27.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQCBIAAAAAhEAAAAAAAAAABAAgBAQEAAAgAAAAAEA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\UIs\TimerUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoodadSet" Collapsed="true">
+    <Position X="53.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\Global\Scripts\Map\DoodadSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Grid" Collapsed="true">
+    <Position X="48.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEEACAAAAAAEQAQAAAAAAAAAgAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\Global\Scripts\Map\Grid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StageData" Collapsed="true">
+    <Position X="48.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAACABAAAIAAACAAAAAMAAAAAAAAAAAAMAA=</HashCode>
+      <FileName>Assets\stockholm\Global\Scripts\Map\StageData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TileSet" Collapsed="true">
+    <Position X="50" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\Global\Scripts\Map\TileSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BGMModule" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="50" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAIAAAAABAAEAAABBAAAAAAAAAAAAQAAQAAA=</HashCode>
+      <FileName>Assets\stockholm\Global\Scripts\Modules\BGMModule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PlayerData" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="51.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\Global\Scripts\Modules\DataModule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="OptionData" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="48.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\Global\Scripts\Modules\DataModule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DataModule" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="51.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEIEAAABBAAAAAABAAACAAAAAACAAAAAQAAA=</HashCode>
+      <FileName>Assets\stockholm\Global\Scripts\Modules\DataModule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Axis" Collapsed="true">
+    <Position X="48.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAlEAAhAAIAgIAABAAAIAgAECCIAAAAAgAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\Global\Scripts\Modules\InputModule\Axis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputModule" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="50" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAIgAAQFBAAEAAARAIAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Assets\stockholm\Global\Scripts\Modules\InputModule\InputModule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KeymapData" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="51.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\Global\Scripts\Modules\InputModule\KeymapData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ModuleManager" Collapsed="true">
+    <Position X="53.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBACAAgCAAAAACABCAAIAIBAEAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\stockholm\Global\Scripts\Modules\ModuleManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneManagerWrapper" Collapsed="true">
+    <Position X="9.75" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQQAAAAAAAhABBCABAAAAAgQhIAAQAAQACAQA=</HashCode>
+      <FileName>Assets\stockholm\Global\Scripts\Modules\SceneModule\SceneManagerWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneModule" Collapsed="true">
+    <Position X="9.75" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAIAAAGADAAAAAABAACCAAABAAAAAAFAQAQA=</HashCode>
+      <FileName>Assets\stockholm\Global\Scripts\Modules\SceneModule\SceneModule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PauseBlurShader" Collapsed="true">
+    <Position X="50" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAIAAAEAAIAgAUAAAQAABAAACAAEAEAAAABQIAEA=</HashCode>
+      <FileName>Assets\stockholm\Global\Scripts\PauseBlurShader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SFXManager" Collapsed="true">
+    <Position X="53.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAQAAAAAAAAAACAAAAAEA=</HashCode>
+      <FileName>Assets\stockholm\Global\Scripts\SFXManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BarUI" Collapsed="true">
+    <Position X="41.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAAAAAAAAACAAAAAAAACAAACAAACACCEAAgEA=</HashCode>
+      <FileName>Assets\stockholm\Global\Scripts\UIs\BarUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ButtonUI" Collapsed="true">
+    <Position X="45.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\Global\Scripts\UIs\ButtonUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NumTextUI" Collapsed="true">
+    <Position X="39" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAkAQAAAAAAAAAAAkAAgAAAAACEA=</HashCode>
+      <FileName>Assets\stockholm\Global\Scripts\UIs\NumTextUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UI" Collapsed="true">
+    <Position X="31.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\Global\Scripts\UIs\UI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowUI" Collapsed="true">
+    <Position X="31.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAEAAAABAABAAEAAAAAAAAAQEAAEA=</HashCode>
+      <FileName>Assets\stockholm\Global\Scripts\UIs\WindowUI\WindowUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowUIPanel" Collapsed="true">
+    <Position X="43.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAABAAAAAEgAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\stockholm\Global\Scripts\UIs\WindowUI\WindowUIPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="IAction" Collapsed="true">
+    <Position X="17.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Actions\IAction.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IActionable" Collapsed="true">
+    <Position X="19" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Actions\IActionable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IActionEvent" Collapsed="true">
+    <Position X="20.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Actions\IActionEvent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IAnimator" Collapsed="true">
+    <Position X="22.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Animator\IAnimator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IBoss" Collapsed="true">
+    <Position X="24.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Boss\Boss.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BossPattern" Collapsed="true">
+    <Position X="15.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Boss\BossPattern.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IProjectile" Collapsed="true">
+    <Position X="11.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Combat\IProjectile.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IWeapon" Collapsed="true">
+    <Position X="20.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAgAAAAAIAAAAAAIAAAAAQAAAAAAAQAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Combat\IWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IControlable" Collapsed="true">
+    <Position X="26" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\IControlable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IController&lt;T&gt;" Collapsed="true">
+    <Position X="27.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\IController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ICreature" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAACAAEAAAACAAAAAAAAAAAAAAAAAAABAAAEAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\ICreature.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IGrownable" Collapsed="true">
+    <Position X="15.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\IGrownable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IInteractable" Collapsed="true">
+    <Position X="2" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\IInteractable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ILegacyCreature" Collapsed="true">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAACAAAAAAAAAAAACAACAAAAAAAAAQAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\ILegacyCreature.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IMovable" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\IMovable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IMovableCreature" Collapsed="true">
+    <Position X="9.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAEoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\IMovableCreature.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="INPC" Collapsed="true">
+    <Position X="2" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\NPCs\INPC.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IItemEffect" Collapsed="true">
+    <Position X="17.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAQAAAAAIAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Items\ItemEffects\IItemEffect.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ISpawner" Collapsed="true">
+    <Position X="19" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Objects\ISpawner.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IData" Collapsed="true">
+    <Position X="48.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\Global\Scripts\Modules\DataModule.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IModule" Collapsed="true">
+    <Position X="50" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAABAAAAAABAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Assets\stockholm\Global\Scripts\Modules\IModule.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="InteractMessage" Collapsed="true">
+    <Position X="15.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\IInteractable.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="ActionCallback&lt;T&gt;" Collapsed="true">
+    <Position X="15.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Actions\ActionEvent.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ProjectileHitCallback" Collapsed="true">
+    <Position X="17.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Assets\stockholm\IngameScene\Scripts\Creature\Combat\IProjectile.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1958182727676984}
+  m_IsPrefabParent: 1
+--- !u!1 &1958182727676984
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4793935146031380}
+  - component: {fileID: 114882308227108482}
+  m_Layer: 0
+  m_Name: ModuleManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4793935146031380
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1958182727676984}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114882308227108482
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1958182727676984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dba7188fbe3a3564a9fb2ec16b8babaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  modules:
+  - {fileID: 1930080697553416, guid: 0fb04a24bb268ea47abfdd7a3857cb33, type: 2}
+  - {fileID: 1324259747410148, guid: a4657bb81ca0d1b4485c9c2f13caee06, type: 2}
+  - {fileID: 1353832475820838, guid: 20363da1eaa41cc48b1100c19a2eee54, type: 2}
+  - {fileID: 1843878976532828, guid: 85bbebb24ec652b439cec4d34bd685a8, type: 2}
+  - {fileID: 1069768098940922, guid: 835d0fbfdaf37a44998e00c8489ba7aa, type: 2}
+  - {fileID: 1894303507161122, guid: a3273776c5ea92c49bd57242588632b6, type: 2}
+  - {fileID: 1564272350456772, guid: 250667cf98818884bb56682a362b15bf, type: 2}
+  - {fileID: 1509034568016358, guid: bc1519bc36718ea4eb209cfdabea61f0, type: 2}
+  - {fileID: 1201078832029884, guid: 67c3136cf2f748b4d8a28c83d3dc35cf, type: 2}

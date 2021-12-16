@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: grass_low_animator
+  m_Controller: {fileID: 9100000, guid: 638561a4fa8d2ad4d9b6b12ab71748b2, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 2c5bba354cb2bbf418c513d484b4c5e1, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 67ec302b5aee7fd4da07e88ee6ce3e56, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: fe197a0cbc387c24fbcaddd80c04a862, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 6d59eefdc56614745a19b45bf70251b3, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f8bb9b5ea13735e4da307646c3162390, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ad25e9f0254cbd4459686ee4189163c3, type: 2}

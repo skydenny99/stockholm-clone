@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Monster
+  - Hit Box
+  - NPC
+  - Object
+  - Ladder
+  - Weapon
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Monster
+  - Ground
+  - LineGround
+  - Object
+  - NPC
+  - Item
+  - NotBlured
+  - Projectile
+  - DeadLayer
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1748578553
+    locked: 0
+  - name: Midground
+    uniqueID: 860932315
+    locked: 0
+  - name: Foreground
+    uniqueID: 3879693125
+    locked: 0
+  - name: UI
+    uniqueID: 2888958171
+    locked: 0
+  - name: WindowUI
+    uniqueID: 3745646721
+    locked: 0

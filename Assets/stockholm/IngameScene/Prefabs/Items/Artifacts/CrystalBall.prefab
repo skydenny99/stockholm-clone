@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1037415962872740}
+  m_IsPrefabParent: 1
+--- !u!1 &1037415962872740
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4177938570184194}
+  - component: {fileID: 114436415511868138}
+  - component: {fileID: 114954001302272490}
+  m_Layer: 0
+  m_Name: CrystalBall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4177938570184194
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1037415962872740}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114436415511868138
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1037415962872740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df129556fef5a424faf8d1f9aa5a4e10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemID: item_af_pt_mm
+  itemName: "\uB9C8\uB825\uAD6C\uC2AC"
+  itemInfo: "\uBB3C\uC57D\uC758 \uD6A8\uACFC\uB97C \uCD5C\uB300\uB85C \uAC15\uD654\uC2DC\uCF1C\uC8FC\uB294
+    \uAE30\uBB18\uD55C \uB290\uB08C\uC758 \uAD6C\uC2AC."
+  categoryNum: 1
+  itemImageSmall: {fileID: 21300002, guid: fb46e0a18c78ba2419da65394249497a, type: 3}
+  itemImage: {fileID: 21300000, guid: fb46e0a18c78ba2419da65394249497a, type: 3}
+  maxHavingCount: 1
+  redMoonEnforcement: 7
+  probabilityWeight: 1
+--- !u!114 &114954001302272490
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1037415962872740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 926b5030fb662e649944678ef9a18eec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectValue_: 4

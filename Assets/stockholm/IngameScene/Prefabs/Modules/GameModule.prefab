@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1564272350456772}
+  m_IsPrefabParent: 1
+--- !u!1 &1564272350456772
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4605728170487448}
+  - component: {fileID: 114411802247195864}
+  m_Layer: 0
+  m_Name: GameModule
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4605728170487448
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1564272350456772}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114411802247195864
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1564272350456772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c6300472e7b93c47a4a9cf428d5650d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  redmoonPoint_: 0
+  maxRedmoonPoint_: 10000
+  redmoonOnCurrentNight_: 0
+  isRedMoon_: 0
+  playerPrefab_: {fileID: 1719256894816366, guid: 79c1ced91818aa940ac957cbd21ea5e1,
+    type: 2}
+  companionPrefab_: {fileID: 1328619074061806, guid: d51b509ca6256a443804ad5a3c1a9ad3,
+    type: 2}
+  campfirePrefab_: {fileID: 1250371702709574, guid: ef4c320c174a30a40bb1ad155c329c8d,
+    type: 2}
+  isGameRunning_: 0
+  currentDayTime_: 0
+  currentNightTime_: 0
+  startStage: Stage 1-1
+  debugging: 0
+  monsterList: []
